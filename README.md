@@ -1,8 +1,6 @@
 
 ### Background and Assumption
 
-Today during lunch, I received an urgent task from a colleague (actually from HR) that needed to be done ASAP. This task is essential for a global system that aggregates news from various sources, one of which is Hacker News. The colleague emphasized that it was a very important task, and I decided to take on this challenge.
-
 This service was quickly developed with some minimum necessary features for first usage. I will note a few improvements that could be made:
 
 - **Configuration of Caching:** Move the configuration for caching data from the Hacker News API into a configuration file. Currently, this value is hardcoded to 5 minutes. I believe 5 minutes is quite short since top stories don't appear that frequently.
